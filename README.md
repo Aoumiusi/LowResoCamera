@@ -46,21 +46,6 @@ An Android camera app that lets you take photos in a retro game or pixel art sty
 
 ---
 
-## 📥 Installation
-
-### Requirements
-- Android 7.0 (API Level 24) or higher
-- Device with a camera
-- Storage write permission (requested automatically)
-
-### Download
-1. Download the APK file.
-2. Allow installation from "Unknown sources."
-3. Tap the APK to install.
-4. Grant camera permission.
-
----
-
 ## 🚀 Quick Start
 
 ### 1. Launch the App
@@ -158,21 +143,6 @@ For an Impressionist-like expression with reduced colors.
 
 ---
 
-## 🔧 Technical Information
-
-### Technologies Used
-- **Language**: Kotlin
-- **Camera API**: CameraX 1.5.1
-- **Minimum SDK**: Android 7.0 (API 24)
-- **Architecture**: Component-based
-
-### Image Processing Algorithms
-- **Color Reduction**: Median Cut Algorithm
-- **Monochrome Conversion**: Weighted Average Method (ITU-R BT.601)
-- **Resize**: Bicubic Interpolation
-
----
-
 ## 🙋 FAQ
 
 ### Q: Where are the saved images?
@@ -224,7 +194,7 @@ If the problem persists, please contact us with the following information:
 
 ## 📝 Update History
 
-### Version 1.0 (2025-01-XX)
+### Version 1.0 (2025-11-XX)
 - Initial Release
 - Basic camera functionality
 - Image processing features (resolution adjustment, color reduction, monochrome)
@@ -291,21 +261,6 @@ We hope we can assist you in your creative work.
 - **プレビュー機能**: 撮影直後に確認してから保存
 - **シャッター音**: オン/オフ切り替え可能
 - **設定保持**: アプリを閉じても設定を記憶
-
----
-
-## 📥 インストール
-
-### 必要要件
-- Android 7.0 (API Level 24) 以上
-- カメラ搭載デバイス
-- ストレージ書き込み権限（自動的に要求されます）
-
-### ダウンロード
-1. APKファイルをダウンロード
-2. 「提供元不明のアプリ」のインストールを許可
-3. APKをタップしてインストール
-4. カメラ権限を許可
 
 ---
 
@@ -406,21 +361,6 @@ We hope we can assist you in your creative work.
 
 ---
 
-## 🔧 技術情報
-
-### 使用技術
-- **言語**: Kotlin
-- **カメラAPI**: CameraX 1.5.1
-- **最小SDK**: Android 7.0 (API 24)
-- **アーキテクチャ**: コンポーネントベース
-
-### 画像処理アルゴリズム
-- **色削減**: Median Cut アルゴリズム
-- **モノクロ変換**: 加重平均法（ITU-R BT.601）
-- **リサイズ**: Bicubic補間
-
----
-
 ## 🙋 FAQ
 
 ### Q: 保存した画像はどこにありますか？
@@ -472,7 +412,7 @@ A: デモ版は設定が固定されています。製品版をご利用くだ�
 
 ## 📝 更新履歴
 
-### Version 1.0 (2025-01-XX)
+### Version 1.0 (2025-11-XX)
 - 初回リリース
 - 基本的なカメラ機能
 - 画像処理機能（解像度調整、色数削減、モノクロ）
