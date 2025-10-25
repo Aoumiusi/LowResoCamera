@@ -6,7 +6,7 @@ An Android camera app for taking retro game-style and pixel art-style photos
 ### ✨ Features
 - 🎮 **Retro Game Style**: Nostalgic pixel art photos with 8 to 256 colors
 - 🎨 **Customizable**: Freely adjust resolution, color count, and monochrome settings
-- 📸 **Real-time Preview**: Check the final look before shooting
+- 📸 **Preview**: Check the final look before shooting
 - 🔄 **Multiple Camera Support**: Switch between front and back cameras
 - 🎯 **Pinch Zoom**: Intuitive zoom control with two fingers
 - 🌍 **Multilingual**: Supports Japanese and English
