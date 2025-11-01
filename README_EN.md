@@ -21,9 +21,11 @@ An Android camera app for taking retro game-style and pixel art-style photos
 - **Hardware Buttons**: Compatible with volume buttons, camera button, and Bluetooth shutter
 ### Image Processing
 - **Resolution Selection**: Choose from 128 / 192 / 256 / 384 / 512 px
-- **Color Reduction**: Choose from 8 / 16 / 32 / 64 / 256 colors
+- **Color Reduction Methods**:
+  - **Median Cut**: Choose from 8 / 16 / 32 / 64 / 256 colors
+  - **Fixed Palettes**: Windows 16 colors, Web 16 colors, Paint 12 colors, Color Wheel 12 colors, Web Safe Color 216 colors
 - **Monochrome Mode**: Create a black and white retro atmosphere
-- **High-Quality Algorithm**: Natural color reduction using Median Cut method
+- **High-Quality Color Matching**: CIEDE2000 method for natural color matching closer to human vision (applied to images 256px or smaller)
 ### Save Formats
 - **JPEG**: High compression, small file size
 - **PNG**: Lossless compression, high quality
@@ -74,8 +76,11 @@ Create impressionist-style expressions with reduced colors.
 |------|------|-----------|
 | **Shutter Sound** | On/Off for capture sound | On |
 | **Preview Display** | Show preview after capture | On |
+| **Aspect Ratio** | 4:3 or 16:9 | 4:3 |
 | **Size** | Long side size of image | 256px |
-| **Colors** | Number of colors to use | 32 colors |
+| **Color Reduction Method** | Median Cut or Fixed Palette | Median Cut |
+| **Colors** | Number of colors for Median Cut | 32 colors |
+| **Palette Type** | Palette selection for Fixed Palette mode | Windows 16 colors |
 | **Monochrome** | Convert to black and white | Off |
 | **Image Format** | JPEG or PNG | JPEG |
 ---
@@ -137,8 +142,15 @@ If the problem isn't resolved, please contact us with the following information:
 ## 📝 Update History
 ### Version 1.0 (2025-11-XX)
 - Initial release
-- Basic camera functions
-- Image processing functions (resolution adjustment, color reduction, monochrome)
+- Basic camera functions (zoom, exposure compensation, camera switching)
+- Image processing features:
+  - Resolution adjustment (128/192/256/384/512px)
+  - Color reduction (Median Cut method: 8-256 colors)
+  - Fixed palettes (Windows 16 colors, Web 16 colors, Paint 12 colors, Color Wheel 12 colors, Web Safe Color 216 colors)
+  - CIEDE2000 color difference calculation for high-quality color matching
+  - Monochrome conversion
+- Aspect ratio selection (4:3, 16:9)
+- Image format selection (JPEG, PNG)
 - Settings screen
 - Multilingual support (Japanese/English)
 - Full/Demo version build variants
