@@ -10,7 +10,6 @@ An Android camera app for taking retro game-style and pixel art-style photos
 - 🔄 **Multiple Camera Support**: Switch between front and back cameras
 - 🎯 **Pinch Zoom**: Intuitive zoom control with two fingers
 - 🌍 **Multilingual**: Supports Japanese and English
-- 🆓 **Completely Free**: No ads, no in-app purchases
 ---
 ## 🎯 Main Features
 ### Camera Functions
